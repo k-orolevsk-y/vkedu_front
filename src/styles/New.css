@@ -1,0 +1,60 @@
+.New_post .vkuiSubhead {
+    font-size: 16px;
+    text-align: center;
+}
+
+.New_post_files {
+    display: flex;
+    height: 164px;
+    margin-bottom: 20px;
+}
+
+.New_post_files_remove {
+    margin-right: 115px;
+}
+
+
+.New_post_files_remove:hover .Tappable__hoverShadow {
+    background: none!important;
+}
+
+.New_post_files_remove:hover img {
+    filter: brightness(50%);
+}
+
+.New_post_file_remove {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    z-index: 20;
+    opacity: 0;
+}
+
+.New_post_files_remove:hover .New_post_file_remove {
+    opacity: .5!important;
+}
+
+.New_post_file_img {
+    width: 160px;
+    height: 160px;
+}
+
+.New_post_file_img img {
+    width: 160px;
+    height: 160px;
+}
+
+.New_post_limit_files {
+    color: red;
+    margin: 20px;
+}
+
+.New_post_buttons {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.New_post_buttons .vkuiFormItem:nth-child(2) {
+    margin-left: auto;
+}

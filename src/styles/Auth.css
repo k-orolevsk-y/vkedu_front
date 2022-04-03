@@ -1,0 +1,62 @@
+.Auth_info_block {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.Auth_info_block_images {
+    display: flex;
+}
+
+.Auth_info_block_images img:nth-child(1) {
+    width: 55%;
+    z-index: 1;
+
+    position: relative;
+    left: 16px;
+    top: 25px;
+}
+
+.Auth_info_block_images img:nth-child(2) {
+    width: 55%;
+    z-index: 2;
+
+    position: relative;
+    right: 40px;
+    top: 8px;
+}
+
+.Auth_form_block_password {
+    position: relative;
+}
+
+.Auth_form_block_password_hide_button {
+    color: var(--icon_secondary);
+    cursor: pointer;
+    z-index: 10;
+
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+
+.Auth_form_block_main_button {
+    margin: 10px auto 5px auto!important;
+}
+
+@media screen and (min-width: 768px) {
+    .Auth_form_block {
+        width: 30%;
+
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+    }
+
+    .Auth_form_block_password_hide_button {
+        top: 19px!important;
+    }
+}

@@ -1,0 +1,52 @@
+.Register_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+.Register_form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register_form_block_info {
+    width: 50%;
+}
+
+.Register_form_container_separator {
+    height: 450px;
+    border-right: 1px solid var(--separator_common);
+}
+
+.Register_form_container_layout {
+    display: inline-block;
+    width: 50%;
+}
+
+.Register_form_container_layout .vkuiFormLayout {
+    margin: 0 auto;
+}
+
+.Register_form_container_layout_title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.Register_form_container_layout_subtitle {
+    margin: 5px 3px 0!important;
+    text-align: center;
+    color: var(--text_secondary);
+}
+
+@media screen and (max-width: 768px) {
+    .Register_form {
+        width: 90%;
+    }
+
+    .Register_form_container_layout {
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.Profile_block .vkuiGradient {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 32px;
+    margin: -7px -7px 0 -7px;
+}
+
+.Profile_block .vkuiGradient .vkuiTitle {
+    margin: 20px auto 8px;
+}
+
+.Profile_block .vkuiGradient .vkuiButton {
+    margin-top: 10px;
+}

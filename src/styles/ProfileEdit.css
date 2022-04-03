@@ -1,0 +1,8 @@
+.ProfileEdit_form {
+    display: flex;
+    justify-content: center;
+}
+
+.ProfileEdit_form_center {
+    margin: 0 auto;
+}
